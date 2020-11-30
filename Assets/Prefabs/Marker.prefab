@@ -389,7 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceText: {fileID: 4515958115018871055}
   borderMarginLeftRight: {x: 0.05, y: 0.05}
-  borderMarginTopBottom: {x: 0.155, y: 0.05}
+  borderMarginTopBottom: {x: 0.155, y: 0.001}
   defaultPivot: {x: 0.5, y: 0}
   defaultArrowAnchors: {x: 0.5, y: 0}
   arrowRect: {fileID: 2533621407449437212}

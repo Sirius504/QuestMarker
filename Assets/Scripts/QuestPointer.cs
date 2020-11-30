@@ -106,7 +106,7 @@ public class QuestPointer : MonoBehaviour
     private bool InMargin(float screenPositionNormilized, float margin)
     {
         float distance = GetDistanceToBorder(screenPositionNormilized);
-        return distance < margin;
+        return distance <= margin;
     }
 
     private Vector2 GetNearestMargins(Vector2 screenPositionNormilized)
